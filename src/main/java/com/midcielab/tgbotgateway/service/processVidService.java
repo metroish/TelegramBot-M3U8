@@ -25,8 +25,8 @@ import okhttp3.Response;
 
 public class processVidService {
 
-    private String feedbackUrl = "https://script.google.com/macros/s/AKfycbwWZ2-oC9pkT83UmEJUjjHhqPcTyYyqY4sHwGal4Qs8GMM5oag/exec";
-    private String tgUrl = "https://api.telegram.org/bot1273568061:AAFgsY5GZJzn3SDgsm9q6hq-d2Jhti-5Lmg/sendVideo";
+    private String feedbackUrl = "https://script.google.com/macros/s/xxxxxx/exec";
+    private String tgUrl = "https://api.telegram.org/botxxxxxxxxxx:token/sendVideo";
     private OkHttpClient client = new OkHttpClient.Builder().protocols(Arrays.asList(Protocol.HTTP_1_1)).build();
     private String pendingReason = "";
 
